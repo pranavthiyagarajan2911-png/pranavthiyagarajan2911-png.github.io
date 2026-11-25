@@ -246,6 +246,42 @@ footer {
 </header>
 
 <!-- HOME -->
+    /* Professional profile layout */
+
+.home {
+    min-height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 10%;
+    background: linear-gradient(120deg,#081120,#142b48);
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+    box-shadow: 0 0 30px #38bdf855;
+}
+
+@media(max-width:768px) {
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .profile-photo {
+        width: 220px;
+        height: 220px;
+    }
+}
 
 <section class="home" id="home">
 
@@ -408,8 +444,8 @@ footer {
 
     <p>
     Email:
-    <a href="mailto:pranavthiyagarajan2911@gmail.com">
-    YOUR_EMAIL@gmail.com</a>
+    <a href="mailto:>
+    pranavthiyagarajan2911@gmail.com"@gmail.com</a>
     </p>
 
     <p>
